@@ -171,12 +171,6 @@ tr:hover .deleteBtn {
 
 #centerdiv {
   position: absolute;
-  width: 300px;
-  height: 200px;
-  z-index: 15;
-  top: 50%;
-  left: 50%;
-  margin: -100px 0 0 -150px;
   background: white;
 }
 
@@ -187,10 +181,12 @@ tr:hover .deleteBtn {
 	font-weight:normal;
 }
 .newappIcon {
+  position: absolute;
+  right: 0px;
   padding-top: 10%;
   display: block;
-  max-width: 200px;
-  max-height: 200px;
+  max-width: 400px;
+  max-height: 400px;
   margin: 0 auto;
   padding-bottom: 2em;
 }
